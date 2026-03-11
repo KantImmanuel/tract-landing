@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Terms of Service — Tract</title>
+  <meta name="description" content="Tract Terms of Service. Understand the terms for using our app.">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            dark: {
+              900: '#0F0D0B',
+              800: '#1A1210',
+              700: '#241C17',
+              600: '#2E2520',
+              500: '#3D3229',
+            },
+            sage: {
+              50: '#f6f7f4',
+              100: '#e8ebe3',
+              200: '#d3d9c8',
+              300: '#b3bea2',
+              400: '#93a17c',
+              500: '#8A9750',
+              600: '#6C7B3B',
+              700: '#48533c',
+            },
+            accent: {
+              orange: '#C4783C',
+              teal: '#4ECDC4',
+              red: '#B8564A',
+              green: '#5A8A60',
+            },
+          },
+          fontFamily: {
+            sans: ['"Inter"', 'system-ui', 'sans-serif'],
+            display: ['"Instrument Serif"', 'Georgia', 'serif'],
+          },
+        },
+      },
+    }
+  </script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet">
+  <style>
+    html { scroll-behavior: smooth; }
+    body {
+      background: linear-gradient(180deg, #1A1210 0%, #0F0D0B 100%);
+    }
+    .glass-card {
+      background: rgba(255,255,255,0.06);
+      border: 1px solid rgba(255,255,255,0.08);
+    }
+    .gradient-orb {
+      position: fixed;
+      border-radius: 50%;
+      filter: blur(120px);
+      pointer-events: none;
+      z-index: 0;
+    }
+  </style>
+</head>
+<body class="font-sans antialiased text-white/90 min-h-screen relative overflow-x-hidden">
+
+  <!-- Ambient orbs -->
+  <div class="gradient-orb" style="width:600px;height:600px;top:-200px;left:-100px;background:rgba(138,151,80,0.08);"></div>
+  <div class="gradient-orb" style="width:500px;height:500px;bottom:20%;right:-150px;background:rgba(78,205,196,0.05);"></div>
+
+  <!-- Nav -->
+  <nav class="max-w-3xl mx-auto px-6 py-6 flex items-center justify-between relative z-10">
+    <a href="/" class="flex items-center gap-2.5">
+      <div class="w-9 h-9 bg-sage-500 rounded-lg flex items-center justify-center">
+        <span class="text-white font-display text-xl leading-none">t</span>
+      </div>
+      <span class="font-display text-2xl text-white/90">Tract</span>
+    </a>
+    <a href="/" class="inline-flex items-center gap-2 text-sm text-white/50 hover:text-white/80 transition-colors">
+      <svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+        <path stroke-linecap="round" stroke-linejoin="round" d="M10.5 19.5 3 12m0 0 7.5-7.5M3 12h18"/>
+      </svg>
+      Back to Home
+    </a>
+  </nav>
+
+  <!-- Content -->
+  <main class="max-w-3xl mx-auto px-6 pt-8 pb-24 relative z-10">
+    <h1 class="font-display text-4xl md:text-5xl text-white mb-3">Terms of Service</h1>
+    <p class="text-sm text-white/30 mb-10">Last updated: March 2026</p>
+
+    <div class="glass-card rounded-2xl p-8 md:p-10 space-y-10">
+
+      <!-- Acceptance -->
+      <div>
+        <h2 class="text-base font-bold text-sage-400 mb-3">Acceptance</h2>
+        <p class="text-sm text-white/50 leading-relaxed">
+          By creating an account or using Tract, you agree to these terms. If you don't agree, please don't use the service.
+        </p>
+      </div>
+
+      <!-- What the service does -->
+      <div>
+        <h2 class="text-base font-bold text-sage-400 mb-3">What the service does</h2>
+        <p class="text-sm text-white/50 leading-relaxed">
+          Tract lets you log meals (via photo or manual entry) and bowel movements, then uses AI to identify potential food triggers. The service is provided as-is for personal tracking purposes.
+        </p>
+      </div>
+
+      <!-- Not medical advice -->
+      <div>
+        <h2 class="text-base font-bold text-sage-400 mb-3">Not medical advice</h2>
+        <p class="text-sm text-white/50 leading-relaxed">
+          Tract is not a medical application. AI-generated insights are pattern-based suggestions, not diagnoses. Do not use this app as a substitute for professional medical advice, diagnosis, or treatment. Always seek the advice of a qualified healthcare provider with any questions regarding a medical condition.
+        </p>
+      </div>
+
+      <!-- Your account -->
+      <div>
+        <h2 class="text-base font-bold text-sage-400 mb-3">Your account</h2>
+        <p class="text-sm text-white/50 leading-relaxed">
+          You are responsible for keeping your login credentials secure. You must provide a valid email address. We reserve the right to suspend accounts that violate these terms.
+        </p>
+      </div>
+
+      <!-- Your content -->
+      <div>
+        <h2 class="text-base font-bold text-sage-400 mb-3">Your content</h2>
+        <p class="text-sm text-white/50 leading-relaxed">
+          You own the photos and data you upload. By using the service, you grant us permission to process your content through AI providers for the purpose of delivering the service. We do not claim ownership of your data.
+        </p>
+      </div>
+
+      <!-- Acceptable use -->
+      <div>
+        <h2 class="text-base font-bold text-sage-400 mb-3">Acceptable use</h2>
+        <p class="text-sm text-white/50 leading-relaxed">
+          Use Tract for its intended purpose — personal food and symptom tracking. Don't upload content that is illegal, harmful, or unrelated to food tracking. Don't attempt to reverse-engineer, abuse, or overload the service.
+        </p>
+      </div>
+
+      <!-- Limitation of liability -->
+      <div>
+        <h2 class="text-base font-bold text-sage-400 mb-3">Limitation of liability</h2>
+        <p class="text-sm text-white/50 leading-relaxed">
+          Tract is provided "as is" without warranties of any kind. We are not liable for any health decisions made based on AI-generated insights. Use the information at your own risk.
+        </p>
+      </div>
+
+      <!-- Changes -->
+      <div>
+        <h2 class="text-base font-bold text-sage-400 mb-3">Changes</h2>
+        <p class="text-sm text-white/50 leading-relaxed">
+          We may update these terms from time to time. Continued use of the service after changes constitutes acceptance of the new terms.
+        </p>
+      </div>
+
+      <!-- Contact -->
+      <div>
+        <h2 class="text-base font-bold text-sage-400 mb-3">Contact</h2>
+        <p class="text-sm text-white/50 leading-relaxed">
+          Questions? Reach us at <a href="mailto:support@tractapp.ai" class="text-sage-400 hover:text-sage-300 transition-colors underline underline-offset-2">support@tractapp.ai</a>
+        </p>
+      </div>
+
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <footer class="border-t border-white/5 relative z-10">
+    <div class="max-w-3xl mx-auto px-6 py-8 flex flex-col md:flex-row items-center justify-between gap-4">
+      <div class="flex items-center gap-2">
+        <div class="w-6 h-6 bg-sage-500 rounded-md flex items-center justify-center">
+          <span class="text-white font-display text-sm leading-none">t</span>
+        </div>
+        <span class="text-sm text-white/30">Tract</span>
+      </div>
+      <div class="flex items-center gap-6 text-sm text-white/30">
+        <a href="/privacy.html" class="hover:text-white/60 transition-colors">Privacy Policy</a>
+        <span class="text-white/50">Terms of Service</span>
+        <a href="mailto:support@tractapp.ai" class="hover:text-white/60 transition-colors">Contact</a>
+      </div>
+      <p class="text-sm text-white/30">&copy; 2026 Tract</p>
+    </div>
+  </footer>
+
+</body>
+</html>
